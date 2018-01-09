@@ -11,6 +11,9 @@
 5. [Postcss](https://github.com/postcss/postcss)([autoprefixer](https://github.com/postcss/autoprefixer) default)
 6. [Less](http://lesscss.org/)
 7. [Sass](https://github.com/webpack-contrib/sass-loader)
+8. [VueRouter](https://github.com/vuejs/vue-router) @todo
+9. [mock.js](https://github.com/nuysoft/Mock) @todo
+10. [axios](https://github.com/axios/axios) @todo
 
 ## Get Started
 

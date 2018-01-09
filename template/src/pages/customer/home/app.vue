@@ -1,16 +1,23 @@
 <template>
   <div id="app">
+    <el-button @click.native="startHacking">Let's do it</el-button>
+    {{#router}}
+    <router-view/>
+    {{else}}
     <div class="dd">
       Home
     </div>
     <img v-bind:src="logoImg">
     <h1>{{ msg }}</h1>
-    <el-button @click.native="startHacking">Let's do it</el-button>
+    {{/router}}
   </div>
 </template>
 
 <script>
+{{#unless router}}
 import logo from 'assets/img/logo.png'
+
+{{/unless}}
 export default {
   data () {
     return {
