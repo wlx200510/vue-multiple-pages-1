@@ -21,8 +21,9 @@ import logo from 'assets/img/logo.png'
 export default {
   data () {
     return {
-      msg: 'Use Vue 2.0 Today!',
+      msg: 'Use Vue 2.0 Today!'{{#unless router}},
       logoImg: logo
+      {{/unless}} 
     }
   },
 

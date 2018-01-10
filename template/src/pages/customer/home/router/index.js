@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import notFound from './selfComponents/notFound'
+import notFound from '../selfComponents/notFound'
 
 Vue.use(Router)
 

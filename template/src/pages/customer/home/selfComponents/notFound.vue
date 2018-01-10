@@ -1,7 +1,7 @@
 <template>
   <div>
-      <p>{{title}}</p>
-      <p>{{message}}</p>
+      <p>ERROR!</p>
+      <p>404 Not Found!</p>
   </div>
 </template>
 
@@ -10,7 +10,6 @@ export default {
     name: 'notFound',
     data(){
         return {
-            title: 'ERROR!',
             message: ''
         }
     },
