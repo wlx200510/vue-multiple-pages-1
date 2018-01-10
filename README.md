@@ -11,9 +11,9 @@
 5. [Postcss](https://github.com/postcss/postcss)([autoprefixer](https://github.com/postcss/autoprefixer) default)
 6. [Less](http://lesscss.org/)
 7. [Sass](https://github.com/webpack-contrib/sass-loader)
-8. [VueRouter](https://github.com/vuejs/vue-router) @todo
-9. [mock.js](https://github.com/nuysoft/Mock) @todo
-10. [axios](https://github.com/axios/axios) @todo
+8. [VueRouter](https://github.com/vuejs/vue-router)
+9. [mock.js](https://github.com/nuysoft/Mock)
+10. [axios](https://github.com/axios/axios)
 
 ## Get Started
 
@@ -35,11 +35,11 @@ $ npm install
 $ npm run dev
 ```
 
-visit [http://localhost:8010/user/login.html](http://localhost:8010/user/login.html)
+visit [http://localhost:8010/user/login.html](http://localhost:8060/user/login.html)
 
-visit [http://localhost:8010/user/index.html](http://localhost:8010/user/index.html)
+visit [http://localhost:8010/user/index.html](http://localhost:8060/user/index.html)
 
-visit [http://localhost:8010/customer/index.html](http://localhost:8010/customer/index.html)
+visit [http://localhost:8010/customer/index.html](http://localhost:8060/customer/index.html)
 
 #### Build
 
@@ -58,6 +58,18 @@ visit [http://localhost:2333/customer/index.html](http://localhost:2333/customer
 ## Root Folder Structure
 
 ```bash
+├── build
+│   ├── build.js # build entry
+│   ├── utils.js # tool funcs
+│   ├── webpack.base.conf.js
+│   ├── webpack.dev.conf.js
+|   └── webpack.prod.conf.js
+|
+├── config
+│   ├── index.js  # config index settings
+│   ├── dev.env.js # dev env
+|   └── prod.env.js # prod build env
+|
 ├── src  # main folder
 │   ├── assets  # common assets folder
 │   │   ├── img
@@ -80,7 +92,13 @@ visit [http://localhost:2333/customer/index.html](http://localhost:2333/customer
 │           └── home # home.html
 │               ├── app.html
 │               ├── app.js
-│               └── app.vue
+│               ├── app.vue
+│               ├── mock
+│               |   └── index.js # mock.js to mock API
+│               ├── router
+│               |   └── index.js # vue-router use example
+│               └── selfComponents
+│                   └── notFound.vue # components example with vue-router
 ├── LICENSE
 ├── .babelrc          # babel config (es2015 default)
 ├── .eslintrc.js      # eslint config (eslint-config-vue default)
@@ -195,6 +213,7 @@ visit [http://localhost:2333/customer/index.html](http://localhost:2333/customer
   ```
 
 ## Inspired by [element-starter](https://github.com/ElementUI/element-starter)
+## Inspired by [Plortinus/vue-multiple-pages](https://github.com/Plortinus/vue-multiple-pages)
 
 ## License
 

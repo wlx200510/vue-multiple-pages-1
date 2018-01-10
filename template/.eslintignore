@@ -3,3 +3,5 @@ server.js
 postcss.config.js
 server.js
 webpack.config.js
+build/*
+config/*
