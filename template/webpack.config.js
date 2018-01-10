@@ -161,7 +161,7 @@ const config = {
       }
     },
     open: true,
-    openPage: 'user/login.html'
+    openPage: 'customer/home.html'
   },
   devtool: '#eval-source-map'
 }
