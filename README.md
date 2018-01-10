@@ -23,8 +23,8 @@
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init Plortinus/vue-multiple-pages new-project
-$ cd new-project
+$ vue init wlx200510/vue-multiple-pages-cli new_project
+$ cd new_project
 $ npm install
 ```
 
@@ -214,6 +214,9 @@ visit [http://localhost:2333/customer/index.html](http://localhost:2333/customer
 
 ## Inspired by [element-starter](https://github.com/ElementUI/element-starter)
 ## Inspired by [Plortinus/vue-multiple-pages](https://github.com/Plortinus/vue-multiple-pages)
+
+I base on vuejs-templates/webpack to edit the vue-multiple-pages scaffold, if you are familiar with vue-cli's webpack scaffold.
+it is easy to use this with some special features.
 
 ## License
 
