@@ -18,16 +18,16 @@
 ## Dev
 
 ``` bash
-# serve with hot reload at localhost:8010
+# serve with hot reload at localhost:8060
 npm run dev
 
 ```
 
-[http://localhost:8010/user/login.html](http://localhost:8060/user/login.html)
+[http://localhost:8060/user/login.html](http://localhost:8060/user/login.html)
 
-[http://localhost:8010/user/index.html](http://localhost:8060/user/index.html)
+[http://localhost:8060/user/index.html](http://localhost:8060/user/index.html)
 
-[http://localhost:8010/customer/index.html](http://localhost:8060/customer/index.html)
+[http://localhost:8060/customer/index.html](http://localhost:8060/customer/index.html)
 
 ## Build
 

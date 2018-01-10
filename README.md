@@ -35,11 +35,11 @@ $ npm install
 $ npm run dev
 ```
 
-visit [http://localhost:8010/user/login.html](http://localhost:8060/user/login.html)
+visit [http://localhost:8060/user/login.html](http://localhost:8060/user/login.html)
 
-visit [http://localhost:8010/user/index.html](http://localhost:8060/user/index.html)
+visit [http://localhost:8060/user/index.html](http://localhost:8060/user/index.html)
 
-visit [http://localhost:8010/customer/index.html](http://localhost:8060/customer/index.html)
+visit [http://localhost:8060/customer/index.html](http://localhost:8060/customer/index.html)
 
 #### Build
 
