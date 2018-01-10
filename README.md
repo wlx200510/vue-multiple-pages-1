@@ -1,4 +1,4 @@
-# vue-multiple-pages
+# vue-multiple-pages-cli
 
 **A modern Vue.js multiple pages cli which uses Vue 2, Webpack3, and Element-UI**
 
@@ -63,13 +63,13 @@ visit [http://localhost:2333/customer/index.html](http://localhost:2333/customer
 │   ├── utils.js # tool funcs
 │   ├── webpack.base.conf.js
 │   ├── webpack.dev.conf.js
-|   └── webpack.prod.conf.js
-|
+│   └── webpack.prod.conf.js
+│
 ├── config
 │   ├── index.js  # config index settings
 │   ├── dev.env.js # dev env
-|   └── prod.env.js # prod build env
-|
+│   └── prod.env.js # prod build env
+│
 ├── src  # main folder
 │   ├── assets  # common assets folder
 │   │   ├── img
@@ -94,9 +94,9 @@ visit [http://localhost:2333/customer/index.html](http://localhost:2333/customer
 │               ├── app.js
 │               ├── app.vue
 │               ├── mock
-│               |   └── index.js # mock.js to mock API
+│               │   └── index.js # mock.js to mock API
 │               ├── router
-│               |   └── index.js # vue-router use example
+│               │   └── index.js # vue-router use example
 │               └── selfComponents
 │                   └── notFound.vue # components example with vue-router
 ├── LICENSE

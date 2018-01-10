@@ -48,13 +48,13 @@ Then visit the pages
 │   ├── utils.js # tool funcs
 │   ├── webpack.base.conf.js
 │   ├── webpack.dev.conf.js
-|   └── webpack.prod.conf.js
-|
+│   └── webpack.prod.conf.js
+│
 ├── config
 │   ├── index.js  # config index settings port 8060
 │   ├── dev.env.js # dev env
-|   └── prod.env.js # prod build env
-|
+│   └── prod.env.js # prod build env
+│
 ├── src  # main folder
 │   ├── assets  # common assets folder
 │   │   ├── img
@@ -79,9 +79,9 @@ Then visit the pages
 │               ├── app.js
 │               ├── app.vue
 │               ├── mock
-│               |   └── index.js # mock.js to mock API
+│               │   └── index.js # mock.js to mock API
 │               ├── router
-│               |   └── index.js # vue-router use example
+│               │   └── index.js # vue-router use example
 │               └── selfComponents
 │                   └── notFound.vue # components example with vue-router
 ├── LICENSE

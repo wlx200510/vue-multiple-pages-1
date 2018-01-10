@@ -41,5 +41,5 @@ module.exports = {
     'src/pages/customer/home/selfComponents/**/*': 'router',
     'src/pages/customer/home/mock/**/*': 'mock'
   },
-  'completeMessage': 'To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/Plortinus/vue-multiple-pages'
+  'completeMessage': 'To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/wlx200510/vue-multiple-pages-cli/tree/dev'
 }
